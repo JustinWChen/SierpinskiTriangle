@@ -7,9 +7,9 @@ public void draw()
 {
 sierpinski(150,400,300);
 }
-public void mouseDragged()//optional
+public void mouseMoved()//optional
 {
-fill((int)(Math.random()*256));
+fill(color((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256)));
 }
 
 public void sierpinski(int x, int y, int len) 
